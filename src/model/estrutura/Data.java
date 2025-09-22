@@ -1,0 +1,32 @@
+package model.estrutura;
+
+public class Data {
+		String data;
+		Data nextData;
+		
+		public Data(String data) {
+				this.data = data;
+				this.nextData = null;
+		}
+		
+		public String getData() {
+				return this.data;
+		}
+		
+		public void setData(String data) {
+				this.data = data;
+		}
+	
+		public Data getNextData() {
+				return this.nextData;
+		}
+		
+		public void setNextData(Data nextData) {
+				this.nextData = nextData;
+		}
+		
+		@Override
+		public String toString() {
+				return this.data;
+		}
+}

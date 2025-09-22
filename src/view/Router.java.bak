@@ -1,0 +1,13 @@
+package view;
+
+import controller.TestProtocols;
+
+public class Router {
+	public static void main (String[] args) {
+		TestProtocols newTest = TestProtocols();
+		
+		newTest.beginTest();
+	
+	}
+
+}

@@ -1,0 +1,36 @@
+package controller;
+
+import model.estrutura.Router;
+
+public class TestProtocols { 
+
+	public TestProtocols() {
+		super();
+	}
+	
+	public void beginTest() {
+		try {
+			
+			Router newRouter = new Router();
+			
+			newRouter.addData("https", "OLA_MUNDO");
+			newRouter.addData("https", "ADEUS_MUNDO");
+			newRouter.addData("pop", "PRIMEIRO_EMAIL");
+			newRouter.addData("http", "SITE_INSEGURO");
+			newRouter.addData("pop", "ULTIMO_EMAIL");
+			
+			System.out.println(newRouter.readData("https"));
+			System.out.println(newRouter.readData("pop"));
+			System.out.println(newRouter.readData("https"));
+			System.out.println(newRouter.readData("http"));
+			System.out.println(newRouter.readData("pop"));
+			System.out.println(newRouter.readData("https")); // testar se a lista estiver vazia
+			System.out.println(newRouter.readData("JAHAHSHDSHA"));
+			
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+		
+	}
+
+}
