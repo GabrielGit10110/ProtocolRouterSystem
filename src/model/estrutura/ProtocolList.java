@@ -36,7 +36,7 @@ public class ProtocolList {
 	
 	public Protocol get(String type) {
 		if (this.last == null) {
-			throw new IllegalArgumentException("");
+			throw new IllegalArgumentException("Lista de protocolos vazia...");
 		}
 		
 		Protocol pointer = this.last.getNextProtocol();
