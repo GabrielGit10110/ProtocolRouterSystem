@@ -175,12 +175,10 @@ Distribuído sob licença MIT. Veja `LICENSE` para mais informações.
 **Gabriel** - [GabrielGit10110](https://github.com/GabrielGit10110)
 
 - GitHub: [@GabrielGit10110](https://github.com/GabrielGit10110)
-- LinkedIn: [Seu perfil] (adicione depois!)
 
 ## 🌟 Agradecimentos
 
-- Inspirado em sistemas de roteamento de rede reais
-- Padrões de design da GoF (Gang of Four)
+- Inspirado nas minhas aulas de estruturas de dados da faculdade
 - Comunidade Java por boas práticas
 
 ---
